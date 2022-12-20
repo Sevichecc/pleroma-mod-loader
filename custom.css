@@ -1,0 +1,25 @@
+/* ---- table ---- */
+.StatusContent table {
+  border-collapse: collapse;
+}
+.StatusContent table td, .StatusContent table th {
+  padding: .25em;
+  border: 1px solid #aaa;
+}
+
+.still-image.emoji.img:hover {
+  /* Scale up 2 times */
+  transform: scale(2);
+  /* shadows around image edges */
+  filter: drop-shadow(0 0 1px rgba(255,255,255,0.25));
+}
+
+.still-image.emoji.img {
+  position: relative;
+  transform-origin: center;
+  /* Animation duration */
+  transition: 200ms ease-in-out;
+}
+
+
+
