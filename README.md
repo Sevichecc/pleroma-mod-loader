@@ -5,4 +5,4 @@ Feature：
 - Syntax highlight
 - KaTex support
 - Custom CSS
-  ……
+- inline image
